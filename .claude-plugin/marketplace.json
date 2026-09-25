@@ -50,6 +50,15 @@
       "skills": [
         "./skills/claude-api"
       ]
+    },
+    {
+      "name": "community-relations-skills",
+      "description": "Relacionamento com comunidades em mineração com IA: triagem de manifestações, salvaguardas de direitos humanos, LGPD e segurança de barragens, e auditoria de implantação",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/mineravinculo-ia"
+      ]
     }
   ]
 }
