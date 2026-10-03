@@ -90,7 +90,7 @@ A tabela de pedidos indevidos, com a resposta alternativa para cada um, está na
 | `references/marco-normativo.md` | Normas e links verificados, com status; correções às referências originais |
 | `scripts/triagem.py` | Pré-triagem léxica (camada 1) |
 | `scripts/validar_registro.py` | Validação de registro contra o modelo v1.1 |
-| `scripts/testar_triagem.py` | Regressão do léxico (`evals/triagem-regressao.json`); rode após qualquer mudança no léxico |
+| `scripts/testar_triagem.py` | Regressão do léxico (`assets/triagem-regressao.json`); rode após qualquer mudança no léxico |
 | `assets/registro-exemplo.json` | Registro válido completo |
 
 ## Exemplos

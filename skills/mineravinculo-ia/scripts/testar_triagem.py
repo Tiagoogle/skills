@@ -2,7 +2,7 @@
 """
 Regressão da pré-triagem léxica. Rode após qualquer mudança no léxico.
 
-Cada caso em evals/triagem-regressao.json pode declarar:
+Cada caso em assets/triagem-regressao.json pode declarar:
   nivel_minimo          nível que a triagem tem de atingir ou superar
   nivel_maximo          nível que a triagem não pode superar (falsos positivos)
   categorias            categorias que têm de aparecer
@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from triagem import triar  # noqa: E402
 
 ORDEM = {"nenhum": 0, "alto": 1, "critico": 2}
-PADRAO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "evals", "triagem-regressao.json")
+PADRAO = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "triagem-regressao.json")
 
 
 def main():
