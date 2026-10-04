@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.1",
+  "id": "7f3c2a9e-1d4b-4c8a-9b6e-2f1a0c5d8e77",
+  "received_at": "2026-09-22T09:40:00-03:00",
+  "channel": "campo",
+  "input_modality": "oral_registrado_por_terceiro",
+  "language": "pt-BR",
+  "recorded_by": "agente_de_campo",
+  "manifestation_type": "reclamacao",
+  "scope": "coletiva",
+  "territorial_units": ["TU-014 Córrego Fundo (fictício)"],
+  "location": "Trecho do córrego a jusante da ponte velha",
+  "consent": {
+    "record": "granted",
+    "identity_disclosure": "refused",
+    "contact_back": "granted",
+    "collected_by": "agente_campo_03",
+    "collected_at": "2026-09-22T09:35:00-03:00"
+  },
+  "legal_basis": "legitimo_interesse",
+  "access_level": "restrito",
+  "retention_until": "2031-09-22",
+  "reporter_identity": "REF-PROT-00421",
+  "original_statement": "Desde o começo do mês a água do córrego ficou barrenta e com cheiro ruim. As famílias da parte de baixo usam essa água para os animais e para a horta. Duas crianças tiveram diarreia na semana passada e a gente quer saber se tem relação com a obra.",
+  "normalized_summary": "Relato coletivo de alteração de cor e odor da água do córrego desde o início de setembro, com uso para dessedentação animal e horta. Relato de dois casos de diarreia em crianças. Pedido: saber se há relação com a obra.",
+  "summary_confirmed_by_reporter": "sim",
+  "topics": ["agua", "saude"],
+  "impact_claimed": "Alteração da qualidade da água usada para animais e horta; possíveis efeitos à saúde de crianças.",
+  "requested_action": "Informação sobre relação com a obra e verificação da água.",
+  "evidence": ["testemunho"],
+  "evidence_status": "nao_verificada",
+  "urgency_suggestion": "alta",
+  "urgency_rationale": "Possível efeito à saúde de crianças e uso produtivo da água; alcance coletivo. Sem relato de risco imediato à vida.",
+  "risk_flags": ["saude", "crianca_adolescente"],
+  "screening": {
+    "lexical_level": "alto",
+    "lexical_flags": ["saude", "agua", "crianca_adolescente"],
+    "llm_flags": ["saude", "crianca_adolescente"],
+    "injection_suspected": false,
+    "lexical_coverage": "adequada"
+  },
+  "escalation": {
+    "required": true,
+    "reason": "Sinal de saúde envolvendo crianças; encaminhar a meio ambiente (coleta) e saúde/segurança.",
+    "escalated_to": "coordenacao_social; meio_ambiente",
+    "escalated_at": "2026-09-22T10:05:00-03:00",
+    "independent_channel": false
+  },
+  "status": "em_validacao",
+  "owner": "coord_social_02",
+  "due_date": "2026-09-26",
+  "due_date_approved_by": "coord_social_02",
+  "source_references": [
+    {
+      "doc_id": "MON-AGUA-2026-08",
+      "version": "1.0",
+      "valid_until": "2026-12-31",
+      "excerpt": "Ponto P-07 (a montante da ponte velha): coleta de agosto dentro dos parâmetros. Não há ponto a jusante."
+    }
+  ],
+  "classification_history": [
+    {
+      "at": "2026-09-22T09:50:00-03:00",
+      "actor": "mineravinculo_ia",
+      "actor_type": "agente",
+      "topics": ["agua", "saude"],
+      "urgency": "alta",
+      "risk_flags": ["saude", "crianca_adolescente"],
+      "reason": "Sugestão inicial."
+    },
+    {
+      "at": "2026-09-22T10:02:00-03:00",
+      "actor": "coord_social_02",
+      "actor_type": "humano",
+      "topics": ["agua", "saude"],
+      "urgency": "alta",
+      "risk_flags": ["saude", "crianca_adolescente"],
+      "reason": "Confirmada. Monitoramento existente não cobre o trecho relatado: divergência não significa improcedência."
+    }
+  ],
+  "human_review": "required",
+  "closure": null,
+  "reopen_count": 0,
+  "audit_log": [
+    {"at": "2026-09-22T09:40:00-03:00", "actor": "agente_campo_03", "action": "registro_criado", "details": "Relato oral registrado em visita."},
+    {"at": "2026-09-22T09:50:00-03:00", "actor": "mineravinculo_ia", "action": "classificacao_sugerida", "details": "Pré-triagem léxica: alto."},
+    {"at": "2026-09-22T10:05:00-03:00", "actor": "coord_social_02", "action": "escalonado", "details": "Meio ambiente e saúde/segurança."}
+  ]
+}
